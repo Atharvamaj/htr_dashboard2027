@@ -1,0 +1,28 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║   ⚠️  CRITICAL: ROTATE YOUR SUPABASE KEYS BEFORE DEPLOY  ⚠️   ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+Your Supabase credentials in .env files may have been exposed.
+
+BEFORE DEPLOYING TO CLOUDFLARE PAGES:
+
+1. Go to: https://app.supabase.com
+2. Select your project: fhjgvffnvczzphfjghim
+3. Settings → API → Rotate the anon/public key
+4. Save the NEW key
+5. Use NEW key in Cloudflare Pages environment variables
+
+DO NOT use the old keys from .env files!
+
+---
+
+After rotating keys:
+✅ Delete this reminder file
+✅ Follow CLOUDFLARE_DEPLOYMENT.md
+✅ Deploy with confidence!
+
+---
+
+See SECURITY_FIXES_APPLIED.md for complete details.
